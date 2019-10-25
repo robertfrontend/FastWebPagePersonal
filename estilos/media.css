@@ -88,9 +88,81 @@
         margin-right: auto;
     }
 
+    .div-sub-suscribete {
+        height: auto;
+    }
+
+    .div-input {
+        text-align: center;
+    }
+
+    .div-input input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .div-btn-suscribete {
+        margin-top: 50px;
+        text-align: center;
+        height: 100px;
+
+    }
+
+    .div-btn-suscribete a {
+        position: none;
+        float: none;
+        padding: 15px 50px;
+    }
+
+    .div-sub-team {
+        text-align: center;
+    }
+
+    .div-perfiles {
+        display: block;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .div-question {
+        width: 100%;
+        margin-left: 0;
+    }
 
 
 
+}
+
+
+@media screen and (max-width:550px){
+
+    .div-imagen-bienvenida {
+        display: none;
+    }
+
+    .control-img-bien img {
+        display: none;
+    }
+
+    .div-text-bienvenida {
+        width: 100%;
+    }
+
+    .control-text-bien {
+        margin-top: 50px;
+    }
+
+    .div-tarjeta-1 {
+        width: 100%;
+    }
+
+    .div-tarjeta-2 {
+        width: 100%;
+    }
+
+    .div-perfil-img img {
+        width: 30%;
+    }
 
 
 }
