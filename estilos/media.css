@@ -1,0 +1,96 @@
+@media screen and (max-width:1230px){
+    .div-input a {
+        padding: 15px 100px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .div-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+}
+
+
+
+@media screen and (max-width:1000px){
+    .div-input input {
+        width: 25%;
+    }
+
+    .div-link {
+        position: absolute;
+        z-index: 2;
+        width: 80%;
+        display: none;
+        top: 0;
+        right: 50px;
+        text-align: right;
+        transition: flex 0.9s ease-in-out;
+    }
+
+    .activar-menu {
+        display: block;
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+
+    #btn-menu {
+        
+        text-decoration: none;
+    }
+
+
+    .div-icono-menu {
+        display: block;
+       position: relative;
+       float: right;
+       margin-top: 10px;
+
+       margin-right: 10px;
+    }
+    
+    #icono-menu {
+        font-size: 36px;
+        display: block;
+        color: white;
+        
+    }
+
+    .div-feature {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .div-sub-feature{
+        margin-bottom: 0px;
+    }
+
+    .div-tarjeta-1{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div-tarjeta-2{
+        width: 50%;
+        display: block;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+}

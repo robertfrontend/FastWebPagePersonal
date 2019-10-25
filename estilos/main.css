@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: white;
+}
+
+.div-header {
+    width: 100%;
+    background: #343a40;
+}
+
+.div-container {    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.div-logo {
+    padding: 10px ;
+    display: inline-block;
+
+
+}
+
+.div-link {
+    border:none;
+    padding: 5px;
+    float:right;
+
+}
+
+
+.div-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.div-link ul li{
+    list-style: none;
+}
+
+
+.div-bienvenida {
+    position: relative;
+    float: left;
+    width: 100%;
+    background:url(../imagenes/background.jpg);
+    background-size: cover;
+    margin-top: -5px;
+    min-height: 500px;
+}
+
+
+.backgroun-bienvenida {
+    position: relative;
+    background: rgba(97, 20, 199, 0.548);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+}
+
+
+.div-sub-bienvenida {
+    width:100%;
+}
+
+.div-imagen-bienvenida {
+    width: 50%;
+    position: relative;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+.control-img-bien {
+    margin-right:300px;
+}
+
+
+.div-imagen-bienvenida img{
+    width: 250px;
+
+
+}
+
+.div-text-bienvenida {
+    display: inline-block;
+    width: 49%;
+    height: 400px;
+
+}
+
+.control-text-bien{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.div-text-bienvenida h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.div-text-bienvenida p {
+    color: white;
+    font-size: 17px;
+}
+
+.div-boton-bien {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div-boton-bien a {
+    font-size: 18px;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgba(102, 102, 102, 0.938);
+    text-decoration: none;
+}
+
+
+.div-suscribete{
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #343a40;
+    margin-top: -1px;
+
+}
+
+.div-sub-suscribete{
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+.div-input {
+    width: 100%;
+}
+
+.div-input input{
+    width: 30%;
+    height: 50px;
+    font-size: 1.3em;
+    float: left;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    border: none;
+}
+
+.div-input a {
+    position: relative;
+    float: left;
+    padding: 15px 12%;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+
+.div-feature {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.div-sub-feature {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 60px;
+
+}
+
+
+.div-tarjeta-1 {
+    width: 22%;
+    height: 150px;
+    text-align: center;
+    border: 1px solid #007bff;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.div-tarjeta-2 {
+    width: 22%;
+    height: 150px;
+    text-align: center;
+    background: #007bff;
+    display: inline-block;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 20px;
+
+
+}
+
+
+.div-porque {
+    position: relative;
+    float: left;
+
+}
+
+.div-sub-porque {
+    position: relative;
+    float: left;
+    margin-top:50px;
+
+    text-align: center;
+}
+
+.div-sub-porque h1 {
+    font-size: 35px;
+}
+
+.div-sub-porque p {
+    color: rgba(0, 0, 0, 0.747);
+}
+
+
+.div-preguntas {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.div-sub-preguntas {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.div-question {
+    width:50%;
+    position: relative;
+    float: left;
+    margin-left: 25%;
+
+}
+
+
+.div-a-one {
+    text-align: center;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    padding-top: 10px;
+}
+
+
+.div-a-one a{
+    text-decoration: none;
+    color: #007bff;
+}
+
+.div-respusta {
+    display: none;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+}
+
+.activar-div {
+    display: block;
+}
+
+
+.div-team {
+    width: 100%;
+    background: rgba(91, 9, 197, 0.952);
+    position: relative;
+    float: left;
+    
+}
+
+
+
+
+.div-sub-team {
+
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.div-sub-team h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.div-sub-team p {
+    color: white;
+    font-size: 17px;
+}
+
+.div-perfiles {
+    width: 28%;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.div-perfil-img {
+    padding-top: 20px;
+    text-align: center;
+    width: auto;;
+
+}
+
+.div-perfil-img img {
+    width:150px ;
+
+}
+
+.div-desc-perfil p {
+    text-align: center;
+    color: black;
+}
+
+
+.div-redes, span {
+    padding: 10px;
+}
+
+
+.div-footer {
+    width: 100%;
+    height: 100px;
+    background: #343a40;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.div-sub-footer  p{
+    color: white;
+}   
+
+
+.div-sub-footer strong {
+    color: rgb(105, 0, 241);
+}
+
+
+.div-icono-menu {
+    display: none;
+}
+
+#icono-menu {
+    display: none;
+}
+
+.div-link br {
+    display: none;
+}
+
