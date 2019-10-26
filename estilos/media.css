@@ -88,6 +88,10 @@
         margin-right: auto;
     }
 
+    .div-tarjeta-2 h1 {
+        padding-top: 30px;
+    }
+
     .div-sub-suscribete {
         height: auto;
     }
