@@ -102,6 +102,7 @@
     }
 
     .div-btn-suscribete {
+        width: 100%;
         margin-top: 50px;
         text-align: center;
         height: 100px;
@@ -162,6 +163,10 @@
 
     .div-perfil-img img {
         width: 30%;
+    }
+
+    .div-input input {
+        width: 90%;
     }
 
 
