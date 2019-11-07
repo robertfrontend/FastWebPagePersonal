@@ -200,10 +200,18 @@ body {
     width: 22%;
     height: 150px;
     text-align: center;
-    border: 1px solid #007bff;
+    /* border: 1px solid #007bff; */
     display: inline-block;
     flex-wrap: wrap;
     margin-left: 20px;
+    transition: all .2s;
+    box-shadow: 0px 10px 10px rgba(165, 162, 173, 0.87);
+}
+
+.div-tarjeta-1:hover{
+    transform: translateY(-20px);
+    border: none;
+    box-shadow: 0px 10px 10px rgba(70, 1, 180, 0.644);
 }
 
 .div-tarjeta-2 {
@@ -212,11 +220,17 @@ body {
     text-align: center;
     background: #007bff;
     display: inline-block;
+    box-shadow: 0px 10px 10px rgba(25, 25, 26, 0.404);
     flex-wrap: wrap;
     color: white;
     margin-left: 20px;
+    transition: all .2s;
+}
 
-
+.div-tarjeta-2:hover{
+    transform: translateY(-20px);
+    border: none;
+    box-shadow: 0px 10px 10px  rgba(42, 41, 43, 0.87);
 }
 
 
@@ -328,6 +342,13 @@ body {
     display: inline-block;
     margin-left: 20px;
     margin-bottom: 50px;
+    box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.63);
+    transition: all .2s ;
+}
+
+.div-perfiles:hover{
+    transform:translatey(10px);
+    box-shadow: 0px 10px 10px rgba(2, 3, 71, 0.911);
 }
 
 .div-perfil-img {
